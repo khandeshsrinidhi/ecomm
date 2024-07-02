@@ -2,7 +2,7 @@ pipeline {
   agent any
   stages{
     
-    stage ('Nginx intsall'){
+    stage ('Nginx intsalling'){
       steps{
         sh 'sudo apt install nginx -y'
       }
