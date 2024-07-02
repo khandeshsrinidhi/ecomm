@@ -22,14 +22,6 @@ pipeline {
         sh 'sudo systemctl resart nginx'
       }
     }
-
-
-
-    
-
   }
 }
-
-    
-    
-    
+}
