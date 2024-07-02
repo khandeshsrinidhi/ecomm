@@ -17,7 +17,7 @@ pipeline {
         sh 'sudo cp rf /var/lib/jenkins/workspace/nginx/* /var/www/html/'
       }
     }
-    stage ('Restart nginx'){
+    stage ('Restarting nginx'){
       steps{
         sh 'sudo systemctl resart nginx'
       }
